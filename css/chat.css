@@ -11,6 +11,7 @@
 
 .chats-body {
   padding: 10px 0px;
+  padding-top: 100px;
 }
 
 .chats-body .header,
@@ -18,9 +19,9 @@
   padding: 0px 20px;
 }
 
-.chat-screen {
+.chats-body {
   background-image: url("../images/chatBg.png");
-  min-height: 100vh;
+  min-height: 1000vh;
 }
 
 .chat__write--container {
@@ -32,6 +33,11 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
+}
+
+.chat__icon-left {
+  position: absolute;
+  left: 10px;
 }
 
 .chat__icon-right {
@@ -101,8 +107,8 @@
   border-top: 1px solid #f7f7f7;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   padding: 0px 20px;
   padding-top: 30px;
 }
