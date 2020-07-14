@@ -12,3 +12,9 @@
 .status-bar .status-bar__battery-level {
   margin-left: 5px;
 }
+
+.status-bar__column {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}

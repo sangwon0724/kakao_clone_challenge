@@ -20,6 +20,11 @@
   margin-top: 15px;
 }
 
+.more .more__btn-list {
+  border-top: 1px solid #f7f7f7;
+  padding-top: 20px;
+}
+
 .more .more__suggestions {
   border-top: 1px solid #f7f7f7;
   padding-top: 20px;

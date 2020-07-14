@@ -2,12 +2,42 @@
   padding: 20px 0px;
   border-top: 1px solid #f7f7f7;
   border-bottom: 1px solid #f7f7f7;
-  margin: 20px 0px;
+  margin: 10px 0px;
 }
 
 .friends__plus .friends__title,
 .friends__list .friends__title {
   font-size: 14px;
   opacity: 0.6;
-  margin-bottom: 12px;
+  margin-bottom: 15px;
+}
+
+.middle__span {
+  width: 290px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+.end__span {
+  width: 60px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.friends__friend {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.friend__column > div:nth-child(2) {
+  margin-left: 20px;
+}
+
+.friend__column > div:nth-child(3) {
+  position: absolute;
+  right: 0px;
 }

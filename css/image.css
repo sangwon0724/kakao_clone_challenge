@@ -1,0 +1,85 @@
+.friend .friend__avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 35%;
+}
+
+.friend__avatar.g-avatar {
+  width: 60px;
+  height: 60px;
+}
+
+.friend__avatar.m-avatar {
+  width: 50px;
+  height: 50px;
+}
+
+.LSW__img {
+  background-image: url("../images/LSW.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.birthday__img {
+  background-color: #fc5c65;
+  color: white;
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recommend__img {
+  background-color: #706fd3;
+  color: white;
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.plus__img {
+  background-image: url("../images/kakao_ch.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.lover__img {
+  background-color: #ffcccc;
+  color: #ff9ff3;
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hearts {
+  color: #f368e0;
+}
+
+.last__badge {
+  background-color: red;
+  color: #f7f7f7;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7px;
+  margin-right: 20px;
+}
+
+.message__avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #ffcccc;
+  color: #ff9ff3;
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 17px;
+}
