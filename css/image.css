@@ -44,6 +44,12 @@
   background-position: center;
 }
 
+.iron-man__img {
+  background-image: url("../images/tony_stark.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 .lover__img {
   background-color: #ffcccc;
   color: #ff9ff3;
